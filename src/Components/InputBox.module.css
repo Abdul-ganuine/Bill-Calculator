@@ -1,0 +1,44 @@
+.box {
+  width: 46%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.billBox p {
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+.billBox input {
+  width: 100%;
+  padding: 6px;
+  background-color: #f3f8fc;
+  border-radius: 4px;
+}
+.tipSelectionBox p {
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+.tipBtnBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px 4px;
+}
+.tipBtnBox button {
+  width: 32%;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #00474b;
+  color: #d9e4ea;
+}
+.tipBtnBox input {
+  width: 32%;
+  border-radius: 3px;
+}
+
+.noOfPeopleBox input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+}
